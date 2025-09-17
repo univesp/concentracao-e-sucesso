@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Univesp">
+
+  <meta name="description" property="og:description"
+  content="">
+
+  <title>Univesp | Concentracao e Sucesso</title>
+
+  <link rel="shortcut icon" href="https://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Math&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.1.css">
+  <!-- <link rel="stylesheet" href="../common/rea-geral-2.1.css">   -->
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">William Kimura</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">23300.0000000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Celso Roberto Lourenco</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100A38F8AD45AFCC2449EE864BD78216A31</mso:ContentTypeId>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+  <!--///////////////////////////////////////////////////////////////
+  Classe para nav
+  - padrão => header estático
+  - class="header-dinamico" => header possui posição fixa e é mostrado apenas quando a página está no topo (necessário ajustar padding ou margin superior e inferior do main).
+  //////////////////////////////////////////////////////////////////-->
+  <!-- <nav class="header-dinamico"> -->
+  <nav>
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/colorida-positiva.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+      </div>
+      <!-- Compartilhamento -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+<main id="conteudoPrincipal">
+
+<header id="header" class="container-fluid bg-verde intro" alt="Foto de fundo azul, com um homem branco de cabelos curtos e loiros e camisa cinza. Ele está segurando uma lupa, na frente do olho esquerdo.">
+ <div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+    </div>
+    <div class="col-12 col-lg-6" style="text-align: -webkit-center;">
+      <div class="card">
+        <div class="icon-eye"><img src="assets/olho2.png" alt="Imagem de olho" class="bg-image2" /></div>
+        <h1>CONCENTRAÇÃO<br>E SUCESSO:</h1>
+        <p>ESTRATÉGIAS<br>PARA TER FOCO</p>
+      </div>
+      <div style="z-index: 100;" class="d-flex justify-content-center"><a href="#"><img id="startBtn" src="assets/inicio.png" /></a></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 d-flex align-items-bottom">
+      
+    </div>
+  </div>
+</div>
+</header>
+<section id="pagina2" style="display: none;position: relative;">
+  <div style="position:relative;">
+    <div class="dot-pattern2">
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+    <img class="cinza" src="assets/cinza_inicio2.png"/>
+  </div>
+    <div class="container">
+      <div class="row" style="display:flex;align-items: center;">
+        <div class="col-12 col-sm-4">
+          <div id="card2" class="card2">
+            <img id="icone1" src="assets/arte_3.png" alt="ícone olho" class="icone">
+            <div class="sentido">
+              <img id="icone2" src="assets/arte_3b.png" alt="ícone olho" class="icone" style="width:45%;">
+              <h2>O que é<br><strong>o foco?</strong></h2>
+              <p class="texto">
+                Foco é um substantivo masculino que significa a nitidez de uma imagem e a visão de um objetivo bem definido.
+              </p>
+            </div>
+          </div>
+          <p class="texto2">
+              Foco é um substantivo masculino que significa a nitidez de uma imagem e a visão de um objetivo bem definido.
+            </p>
+        </div>
+        <div class="col-12 col-sm-4" style="text-align: right;z-index: 10;">
+          <div class="meio">
+            <img class="arte_2" src="assets/arte_2.png" alt="Foto de uma mulher negra, com cabelos soltos, vestida com uma blusa branca, olhando por um binóculo.">
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-4">
+          <div class="card2">
+            <img id="icone3" src="assets/arte_4.png" alt="ícone alvo" class="icone">
+            <div class="sentido">
+              <img id="icone4" src="assets/arte_4b.png" alt="ícone alvo" class="icone"  style="width:45%;">
+              <h2>O que é<br><strong>“ter foco”?</strong></h2>
+              <p class="texto">
+                A expressão “ter foco” significa ter objetivo, estabelecer um planejamento, organizar-se e ter persistência para atingir as metas e alcançar o que se pretende.
+              </p>
+            </div>
+          </div>
+          <p class="texto2">
+                A expressão “ter foco” significa ter objetivo, estabelecer um planejamento, organizar-se e ter persistência para atingir as metas e alcançar o que se pretende.
+              </p>
+        </div>
+      </div>
+    </div>
+<div class="container-fluid faixa_verde" style="padding:0px;"><img class="verde" src="assets/verde3.png"/>
+  <div class="dot-pattern4">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div>
+      </div>
+    </div>
+  <div class="base">
+      <div class="botao">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="btn-icon">
+    <path class="arrow" d="M70.92,44.41c-1.6-1.76-4.32-1.9-6.09-.3l-14.74,13.37-14.74-13.37c-1.76-1.6-4.49-1.47-6.09.3-1.6,1.76-1.47,4.49.3,6.09l20.5,18.6,20.5-18.6c1.76-1.6,1.9-4.32.3-6.09Z"/>
+  </svg>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<section id="pagina3">
+  <div class="container">
+    <div class="row" style="display: flex;align-items: center;">
+      <div class="col-12 col-sm-7">
+        <img id="icone5" class="arte_6" src="assets/arte_6.png" alt="Fluxograma em forma de U que possui 6 itens (dois itens de um lado, um item na base do U e 3 itens do outro lado), que estão em quadrados azuis: visão, meta, plano de ação, tela mental, ação, realização.">
+        <img id="icone6" class="arte_6" src="assets/arte_6b.png" alt="Fluxograma em forma de U que possui 6 itens (dois itens de um lado, um item na base do U e 3 itens do outro lado), que estão em quadrados azuis: visão, meta, plano de ação, tela mental, ação, realização.">
+      </div>
+      <div class="col-12 col-sm-5">
+        <div style="display: flex;align-items: center;">
+          <img id="icone7" src="assets/arte_7.png" alt="" class="arte_7">
+          <img id="icone8" src="assets/arte_7b.png" alt="" class="arte_7" style="width:35%;padding-top: 30px;">
+          <div class="">
+            <h2 class="texto">O que é<br> ser uma<br><strong><span class="destaque-foco">pessoa</span><br><span class="destaque-foco">focada?</span></strong></h2>
+            <h2 class="texto3">O que é ser<br> uma <strong><span>pessoa</span><br><span>focada?</span></strong></h2>
+            <p class="texto">
+              É obter a capacidade de se concentrar, única e exclusivamente, em uma tarefa, em um objetivo, dizendo <strong>NÃO</strong> para todas as outras atividades e distrações que possam surgir no caminho.
+            </p>
+            <p class="texto3">
+              É obter a capacidade de se concentrar, única e exclusivamente, em uma tarefa, em um objetivo, dizendo <strong>NÃO</strong> para todas as outras atividades e distrações que possam surgir no caminho.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container-fluid cinza2" style="padding:0px;">
+    <img class="cinza2" src="assets/cinza.png"/>
+    <div class="dot-pattern5">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div>
+      </div>
+  <div class="base2">
+      <div class="botao2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="btn-icon">
+          <path class="arrow" d="M70.92,44.41c-1.6-1.76-4.32-1.9-6.09-.3l-14.74,13.37-14.74-13.37c-1.76-1.6-4.49-1.47-6.09.3-1.6,1.76-1.47,4.49.3,6.09l20.5,18.6,20.5-18.6c1.76-1.6,1.9-4.32.3-6.09Z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="carrossel" style="display:none;position: relative;">
+<img class="cinza_onda2" src="assets/cinza_onda.png" style="width: 100%;" alt="" />
+<div class="carrossel">
+  <div class="slider-container">
+    <div class="slides" id="slides">
+      <!-- Slide 1: Intro -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_9.png" alt=" Ilustração colorida de um homem sentado em frente a uma mesa mexendo em um laptop, sobre a mesa há vários objetos, como: laptop, vaso de planta, luminária, copo, canetas e outras coisas. Embaixo da mesa tem uma caixa-arquivo e um suporte pequeno com livros. O homem está usando uma calça social cinza, sapatos e gravata pretos e camisa branca. Atrás da mesa tem uma parede cinza e um relógio analógico marcando 10 h." />
+          <img class="texto12" src="assets/arte_9b.png" alt=" Ilustração colorida de um homem sentado em frente a uma mesa mexendo em um laptop, sobre a mesa há vários objetos, como: laptop, vaso de planta, luminária, copo, canetas e outras coisas. Embaixo da mesa tem uma caixa-arquivo e um suporte pequeno com livros. O homem está usando uma calça social cinza, sapatos e gravata pretos e camisa branca. Atrás da mesa tem uma parede cinza e um relógio analógico marcando 10 h." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>1 - Elimine as distrações</h3>
+            <p>
+              Comece desativando as inúmeras notificações no seu <i>smartphone</i>. 
+              Se possível, vá para algum lugar onde não tenha barulho, seja de telefone, campainha ou pessoas. Todas as tarefas que você puder fazer num ambiente mais isolado, faça! Quanto menos interferências do ambiente, melhor.
+            </p>
+          </div>
+      </div>
+
+      <!- - Slide 2: Passo 1 -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_92.png" alt="Ilustração de fundo bege em tom claro, com o desenho de uma cabeça, sem cabelo, aberta na altura da testa, dentro da abertura tem um homem de blusa branca e casaco azul retirando coisas da cabeça, como: peça de quebra cabeça, lâmpada, ponto de interrogação, molas, bomba, seta, coração e uma estrela." />
+          <img class="texto12" src="assets/arte_92b.png" alt="Ilustração de fundo bege em tom claro, com o desenho de uma cabeça, sem cabelo, aberta na altura da testa, dentro da abertura tem um homem de blusa branca e casaco azul retirando coisas da cabeça, como: peça de quebra cabeça, lâmpada, ponto de interrogação, molas, bomba, seta, coração e uma estrela." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>2 - Limpe a mente</h3>
+            <p>
+              Muitas distrações não começam no ambiente externo, mas sim no interno. Procure algum tipo de meditação para aprender a ter o controle da mente. Você vai ver como muitos pensamentos inúteis tiram o foco a todo instante. Aprenda a controlar os pensamentos e o foco aumentará significativamente. 
+            </p>
+          </div>
+      </div>
+
+      <!- - Slide 3: Passo 2 -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_93.png" alt="foto de uma mulher branca sentada na frente de uma mesa, em cima da mesa tem um laptop aberto e algumas coisas como caneta e agenda ao lado. A mulher está vestindo uma blusa cinza e está segurando uma caneca azul com as duas mãos, apoiando os cotovelos na mesa." />
+          <img class="texto12" src="assets/arte_93b.png" alt="foto de uma mulher branca sentada na frente de uma mesa, em cima da mesa tem um laptop aberto e algumas coisas como caneta e agenda ao lado. A mulher está vestindo uma blusa cinza e está segurando uma caneca azul com as duas mãos, apoiando os cotovelos na mesa." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>3 - Faça pausas</h3>
+            <p>
+              Durante o trabalho, acostume-se a fazer pausas para relaxar a mente. A energia mental também tem limite, por isso não adianta querer ter foco em uma tarefa por muitas horas consecutivas sem intervalos. 
+            </p>
+          </div>
+      </div>
+
+      <!- - Slide 4: Passo 3 -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_94.png" alt="Foto colorida de uma mulher de costas, com cabelos cacheados e blusa verde, colando post it em um vidro." />
+          <img class="texto12" src="assets/arte_94b.png" alt="Foto colorida de uma mulher de costas, com cabelos cacheados e blusa verde, colando post it em um vidro." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>4 - Planeje-se</h3>
+            <p>
+              Planeje o seu dia, sua semana, seu mês ou até seu ano. Colocar datas-limites para terminar as tarefas ajuda a não perder o foco com o passar do tempo. O tempo é seu aliado, desde que você tenha muito bem definidos os prazos para cumprir os objetivos. 
+            </p>
+          </div>
+      </div>
+
+      <!- - Slide 5: Passo 4 -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_95.png" alt="Foto colorida de três pessoas brancas, duas mulheres e um homem, vestindo camisa branca e com os braços levantados acima da cabeça. Ao fundo tem céu azul e folhagem." />
+          <img class="texto12" src="assets/arte_95b.png" alt="Foto colorida de três pessoas brancas, duas mulheres e um homem, vestindo camisa branca e com os braços levantados acima da cabeça. Ao fundo tem céu azul e folhagem." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>5 - Cuide da saúde</h3>
+            <p>
+              Uma mente focada só é possível se você estiver com o corpo saudável e descansado. O cansaço físico afeta diretamente a capacidade mental. Portanto, procure dormir bem todas as noites, alimente-se bem e, se estiver com algum problema de saúde, procure um médico. 
+            </p>
+          </div>
+      </div>
+
+      <!- - Slide 6: Passo 5 -->
+      <div class="slide intro2">
+        <div class="coluna-esquerda">
+          <img class="arte_10" src="assets/arte_10.png" alt="" />
+          <h2 class="texto">
+            <span class="numero">6</span><br> passos<br>
+            para<br><span class="destaque-foco">manter <br>o foco</span>
+          </h2>
+          <h2 class="texto4">
+            <div><span class="numero">6</span></div><div>passos para<br><span class="destaque-foco">manter o foco</span></div>
+          </h2>
+        </div>
+        <div class="coluna imagem-central">
+          <img class="texto11" src="assets/arte_96.png" alt="Foto colorida de uma mulher negra de pele clara, com roupa de ginástica, segurando uma corda em cada mão, fazendo movimentos para cima e para baixo, intercalando as mãos. Ao fundo tem uma parede de tijolos aparentes." />
+          <img class="texto12" src="assets/arte_96b.png" alt="Foto colorida de uma mulher negra de pele clara, com roupa de ginástica, segurando uma corda em cada mão, fazendo movimentos para cima e para baixo, intercalando as mãos. Ao fundo tem uma parede de tijolos aparentes." />
+        </div>
+        <div class="coluna texto-direita">
+            <h3>6 - Exercite o corpo </h3>
+            <p>
+              Uma mente focada só é possível se o corpo estiver saudável também. Exercícios físicos liberam hormônios no corpo que ajudam a diminuir o estresse e isso afeta totalmente o foco e a produtividade. Procure algum esporte ou exercício físico que dê prazer e coloque o corpo em movimento!
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="controles">
+      <button onclick="mudarSlide(-1)">❮</button>
+      <div class="indicadores" id="indicadores"></div>
+      <button onclick="mudarSlide(1)">❯</button>
+    </div>
+  </div>
+  <div style="position: relative;">
+  <div class="dot-pattern3">
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+  <img src="assets/verde_carrossel.png" alt="" style="width: 100%; display: block;margin-top: -110px;" />
+  <div class="base3" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%);">
+    <div class="botao3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="btn-icon">
+        <path class="arrow" d="M70.92,44.41c-1.6-1.76-4.32-1.9-6.09-.3l-14.74,13.37-14.74-13.37c-1.76-1.6-4.49-1.47-6.09.3-1.6,1.76-1.47,4.49.3,6.09l20.5,18.6,20.5-18.6c1.76-1.6,1.9-4.32.3-6.09Z"/>
+      </svg>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="pagina4" style="display:none;">
+  <div class="container-fluid">
+  <div class="row align-items-center content">
+    
+    <!-- Coluna 1: Arte à esquerda -->
+    <!-- Coluna 2: Texto -->
+    <div class="col-md-2"></div>
+    <div class="col-md-4 d-md-flex justify-content-center">
+      <div class="moca"> 
+        <img class="texto10 arte_12b" src="assets/arte_12b.png"> 
+        <img class="texto9 arte_12" src="assets/arte_12.png">
+        <div style="text-align:left;padding-left: 25px;">
+          <h4 class="highlight">E como manter o foco nos estudos em casa?</h4>
+          <p>
+            Estudar em casa pode ser desafiador, pois há várias distrações e tentações que podem prejudicar o foco. No entanto, com algumas <strong>estratégias eficazes, é possível manter o foco e maximizar o tempo de estudo. Veja:</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coluna 3: Imagem -->
+    <div class="col-md-4 text-center">
+      <img style="width:100%;" class="texto12" src="assets/arte_11b.png" alt="Foto de uma mulher sentada em uma cama mexendo em um laptop, ela está vestindo uma blusa de manga comprida laranja e calça jeans, está usando fone de ouvido. Ela tem pele clara e cabelos soltos." class="study-image">
+      <img style="width:100%;" class="texto11" src="assets/arte_11.png" alt="Foto de uma mulher sentada em uma cama mexendo em um laptop, ela está vestindo uma blusa de manga comprida laranja e calça jeans, está usando fone de ouvido. Ela tem pele clara e cabelos soltos." class="study-image">
+      <div class="dot-pattern">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
+
+<section id="pagina5" style="background-color: #025373;position: relative;">
+  <img src="assets/arco.png" class="arco">
+  <div class="container my-5">
+  <div id="carouselDicas" class="carousel slide sli" data-bs-interval="false">
+    
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselDicas" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone1.png" alt="Ícone de uma casa, com uma pessoa com um livro aberto dentro da casa.">
+          </div>
+          <div class="carousel-text">
+            <h2>CRIE UM AMBIENTE DE ESTUDO ADEQUADO </h2>
+            <p>Tente estabelecer um espaço dedicado somente aos seus estudos, de preferência em um local tranquilo e livre de distrações. Mantenha o ambiente limpo e organizado, com todo o material necessário ao alcance. Isso ajudará a criar uma atmosfera propícia à concentração e ao foco.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone2.png" alt="Ícone de um relógio analógico.">
+          </div>
+          <div class="carousel-text">
+            <h2>ESTABELEÇA UMA ROTINA DE ESTUDOS</h2>
+            <p>Defina horários específicos para os estudos e siga uma rotina regular. Determine quais são os melhores momentos do dia em que você se sente mais produtivo(a) e concentrado(a). Crie um cronograma de estudos com metas realistas e divida o tempo em blocos de estudo, intercalados com pausas para descanso.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone3.png" alt="Ilustração de uma pessoa tampando os ouvidos com as mãos, na sua frente tem um notebook, em volta da sua cabeça tem ícones de comunicação como telefone, megafone e smartphone">
+          </div>
+          <div class="carousel-text">
+            <h2>ELIMINE TODAS AS DISTRAÇÕES POSSÍVEIS </h2>
+            <p>Identifique as principais distrações que podem afetar seu foco em casa, como redes sociais, televisão ou outros dispositivos eletrônicos. Desligue ou coloque o celular no modo silencioso, bloqueie <i>sites</i> e aplicativos desnecessários durante o período de estudo. Se necessário, utilize aplicativos ou extensões do navegador que ajudem a limitar o acesso a distrações <i>on-line</i></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone4.png" alt="Ilustração de um tomate com um relógio analógico ao lado.">
+          </div>
+          <div class="carousel-text">
+            <h2>FAÇA PAUSAS ESTRATÉGICAS</h2>
+            <p>Divida seu tempo de estudos em blocos e faça pausas estratégicas entre eles. A técnica Pomodoro é uma ótima opção, na qual você estuda por 25 minutos e descansa por 5 minutos. Aproveite essas pausas para relaxar, alongar, fazer um lanche ou tomar um pouco de ar fresco. Isso ajudará a manter a mente fresca e renovada para o próximo bloco de estudos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone5.png" alt="Ícone do perfil de uma cabeça, com uma engrenagem no lugar do cérebro, e um triângulo com o um ponto de exclamação ao lado e acima do perfil da cabeça.">
+          </div>
+          <div class="carousel-text">
+            <h2>DEFINA METAS CLARAS E TANGÍVEIS</h2>
+            <p>Estabeleça metas claras e tangíveis para seus estudos. Divida o material em pequenas tarefas e objetivos alcançáveis. Ao conquistar essas metas, você se sentirá motivado(a) e realizado(a), o que contribuirá para manter o foco e o progresso contínuo nos estudos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone6.png" alt="Ícone de uma pessoa comemorando com as mãos para cima.">
+          </div>
+          <div class="carousel-text">
+            <h2>MANTENHA-SE MOTIVADO(A)</h2>
+            <p>Encontre formas de manter a motivação durante os estudos. Defina recompensas para si mesmo ao atingir metas importantes, como um tempo livre para fazer algo que você goste. Busque apoio de amigos ou familiares para compartilhar seu progresso e desafios. Encontre fontes de inspiração, como vídeos motivacionais ou histórias de sucesso, que podem ajudar a manter sua determinação e foco nos estudos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 7 -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+          <div class="carousel-icon">
+            <img src="assets/icone7.png" alt="Ícone de uma prancheta">
+          </div>
+          <div class="carousel-text">
+            <h2>UTILIZE TÉCNICAS DE CONCENTRAÇÃO</h2>
+            <p>Experimente técnicas de concentração, como a visualização, a repetição de afirmações positivas ou a meditação antes de iniciar os estudos. Essas práticas podem ajudar a acalmar a mente, aumentar a atenção e melhorar a capacidade de concentração.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDicas" data-bs-slide="prev">
+      <img class="seta" src="assets/seta-esquerda.png">
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDicas" data-bs-slide="next">
+      <img class="seta" src="assets/seta-direita.png">
+    </button>
+  </div>
+</div>
+<div class="dot-pattern6">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+      </div>
+</section>
+</section>
+<section id="cabeca" style="display:none;">
+  <div class="container atencao">
+        <div class="row cabeca">
+            <!-- Primeira coluna: Imagem da cabeça -->
+            <div class="col-md-4 image-container2">
+                <img src="assets/cabeca.png" alt="desenho do perfil de uma cabela, com uma peça de quebra cabeça no cérebro e vários símbolos em volta da cabeça, como: asteriscos, quadrado, sinal de mais, estrela entre outros." class="image-head">
+            </div>
+
+            <!-- Segunda coluna: Fita verde, texto e faixa azul -->
+            <div class="col-md-8">
+                <div class="text-box" style="align-items: end">
+                    <!-- Fita verde -->
+                    <img class="texto11" src="assets/arte_13.png" alt="Fita Verde" class="green-wave" style="height: 100%;">
+
+                    <!-- Título -->
+                    <div class="box">
+                      <h2>Atenção!</h2>
+
+                    <!-- Texto principal -->
+                    <p class="texto20">
+                        Se você sente que tem muita dificuldade para manter o foco nos estudos, mesmo tentando diversas estratégias, é importante saber que você não está sozinho(a). Em alguns casos, a dificuldade de concentração pode estar relacionada a questões que vão além da rotina de estudos, como transtornos de atenção, ansiedade ou outros fatores emocionais e cognitivos. Nesses casos, <strong>procurar a ajuda de um profissional qualificado pode fazer toda a diferença. Psicólogos, psiquiatras e neurologistas são os profissionais indicados para avaliar e orientar casos de atenção persistente</strong>. Você também pode procurar os Centros de Atenção Psicossocial – CAPS, que são públicos e gratuitos, contudo, não são todas as unidades que prestam atendimento direto, então confira como funciona a unidade mais próxima de você. Muitas instituições de ensino oferecem apoio psicológico gratuito ou a baixo custo — não hesite em buscar ajuda. Cuidar da sua saúde mental é parte essencial do seu aprendizado e bem-estar.
+                    </p>
+
+                    <!-- Faixa azul -->
+                    <div class="blue-banner">
+                        *Este parágrafo foi elaborado com auxílio da inteligência artificial ChatGPT (OpenAI) e revisado pelo [autor]. Texto gerado em 14 de maio de 2025.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="teste">
+        <img class="background-image" src="assets/verde2.png">
+        <div class="texto-central">
+            <h1 style="font-weight:700;font-family: Montserrat, sans-serif; margin-top: 20px;">Quer saber se você tem foco?</h1>
+            <h1 style="font-weight: 500;font-family: Montserrat, sans-serif;">Responda ao teste e descubra!</h1>
+            <button class="start-button">INICIAR TESTE</button>
+        </div>
+    </div>
+</section>
+
+<section id="exercicio" style="display:none;">
+  <div class="header-image">
+        <img src="assets/cinza_onda.png" alt="Imagem Cinza Superior" class="w-100" style="margin-bottom: -35px;">
+    </div>
+
+    <!-- Seção Central 1 com Bootstrap -->
+    <div class="container_exercicio parte ativa" id="parte1">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_1.png" alt="Foto colorida de duas mulheres de pele clara, conversando na rua de paralelepípedo. Uma está vestindo calça clara, jaqueta jeans e bolsa azul; a outra está de calça jeans, camiseta branca e camisa xadrez vermelha e preta. " class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_1b.png" alt="Foto colorida de duas mulheres de pele clara, conversando na rua de paralelepípedo. Uma está vestindo calça clara, jaqueta jeans e bolsa azul; a outra está de calça jeans, camiseta branca e camisa xadrez vermelha e preta. ">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    1) Você consegue se lembrar do que alguém acabou de te dizer durante uma conversa?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte2">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_2.png" alt="Foto colorida de 5 pessoas de pele clara (3 mulheres e 2 homens) conversando em volta de uma mesa, discutindo algo apresentado em um laptop." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" style="width:90%;" class="texto12" src="assets/exercicio2_2b.png" alt="Foto colorida de 5 pessoas de pele clara (3 mulheres e 2 homens) conversando em volta de uma mesa, discutindo algo apresentado em um laptop.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    2) Quando você realmente precisa se concentrar, os barulhos externos do ambiente são um problema?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte3">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_3.png" alt="Foto colorida de duas mulheres (uma negra e uma de pele clara) sentadas em frente a uma mesa, comendo sanduíche, uma está mordendo o sanduíche e a outra está mastigando." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_3b.png" alt="Foto colorida de duas mulheres (uma negra e uma de pele clara) sentadas em frente a uma mesa, comendo sanduíche, uma está mordendo o sanduíche e a outra está mastigando.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    3) Você repara no sabor e na textura da comida enquanto mastiga?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte4">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_4.png" alt="Foto colorida do tronco de um homem que está mexendo em um laptop com a mão direita e assinalando um item em um vidro com a mão direita." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_4b.png" alt="Foto colorida do tronco de um homem que está mexendo em um laptop com a mão direita e assinalando um item em um vidro com a mão direita.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    4) Quando você começa uma tarefa importante, estabelece objetivos específicos para o que quer realizar?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte5">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_5.png" alt="Foto colorida de uma adolescente sentada em um sofá, mexendo em um celular e uma adulta em pé ao lado do sofá falando com a adolescente." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_5b.png" alt="Foto colorida de uma adolescente sentada em um sofá, mexendo em um celular e uma adulta em pé ao lado do sofá falando com a adolescente.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    5) Você costuma olhar para o celular durante uma conversa com alguém?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte6">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_6.png" alt="Foto colorida de uma pessoa sentada em uma cadeira com as pernas cruzadas, folheando um livro." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_6b.png" alt="Foto colorida de uma pessoa sentada em uma cadeira com as pernas cruzadas, folheando um livro.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    6) Consegue prestar atenção numa leitura por mais de dez páginas?
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte7">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_7.png" alt="Foto colorida de uma mulher de camisa de manga longa branca, com a não esquerda na cabeça e expressão de dúvida. O fundo da imagem é rosa." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_7b.png" alt="Foto colorida de uma mulher de camisa de manga longa branca, com a não esquerda na cabeça e expressão de dúvida. O fundo da imagem é rosa.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    7) Você costuma se pegar tentando lembrar o que estava prestes a fazer? 
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte8">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_8.png" alt=" Foto colorida de uma mulher em uma reunião on-line com mais 4 pessoas (dois homens e duas mulheres)." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_8b.png" alt=" Foto colorida de uma mulher em uma reunião on-line com mais 4 pessoas (dois homens e duas mulheres).">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    8) Você tenta criar um ambiente ideal quando realmente precisa se concentrar (por exemplo, fechar a porta, colocar um sinal de não perturbe)? 
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte9">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_9.png" alt=" Foto colorida do tronco de uma pessoa digitando em um laptop, e projetado em cima das mãos há alguns ícones: lupa, gráfico, alvo, relógio, engrenagens, entre outros." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_9b.png" alt=" Foto colorida do tronco de uma pessoa digitando em um laptop, e projetado em cima das mãos há alguns ícones: lupa, gráfico, alvo, relógio, engrenagens, entre outros.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    9) Antes de iniciar uma tarefa, você estabelece um limite aproximado de tempo para trabalhar nela?   
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte10">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_10.png" alt="Foto colorida de uma palestra, com várias pessoas sentadas e uma mulher com microfone falando. Atrás da palestrante tem uma tela com texto projetado." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_10b.png" alt="Foto colorida de uma palestra, com várias pessoas sentadas e uma mulher com microfone falando. Atrás da palestrante tem uma tela com texto projetado.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    10) Consegue manter o foco em algo que não te interessa tanto (palestra, filme, livro etc.)? 
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte11">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_11.png" alt="Foto colorida de um homem negro sentado em frente a um laptop. Ele está com os cotovelos apoiados na mesa, com as mãos juntas na frente do rosto e olhando para o lado esquerdo." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_11b.png" alt="Foto colorida de um homem negro sentado em frente a um laptop. Ele está com os cotovelos apoiados na mesa, com as mãos juntas na frente do rosto e olhando para o lado esquerdo.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    11) Você se pega “sonhando acordado(a)” quando tem que realizar uma tarefa importante?   
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <button onclick="avancar()" class="nav2 avancar">AVANÇAR ❯</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Seção Central 2 com Bootstrap -->
+    <div class="container_exercicio parte" id="parte12">
+        <div class="row align-items-center">
+            <!-- Coluna 1: Imagem com Fita Verde -->
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="assets/exercicio2_12.png" alt=" Foto colorida de uma mulher negra sentada em frente a um laptop, com as mãos apoiando a cabeça, como se estivesse com dor de cabeça. Ao seu redor há mãos segurando alguns itens, como: telefone, apostilas e livros." class="w-100 texto11">
+                    <img style="width:90%;" class="texto12" src="assets/exercicio2_12b.png" alt=" Foto colorida de uma mulher negra sentada em frente a um laptop, com as mãos apoiando a cabeça, como se estivesse com dor de cabeça. Ao seu redor há mãos segurando alguns itens, como: telefone, apostilas e livros.">
+                </div>
+            </div>
+
+            <!-- Coluna 2: Pergunta e Alternativas -->
+            <div class="col-md-6" style="display: flex; align-items: flex-start;">
+                <div class="question-card">
+                  <p class="question">
+                    12) Você tende a assumir mais tarefas do que consegue dar conta? 
+                  </p>
+
+                  <div class="options">
+                    <button class="option resposta" data-resposta="sim">SIM</button>
+                    <button class="option resposta" data-resposta="nao">NÃO</button>
+                    <button class="option resposta" data-resposta="as_vezes">ÀS VEZES</button>
+                  </div>
+
+                  <div class="nav-buttons">
+                    <button onclick="voltar()" class="nav2 voltar">❮ VOLTAR</button>
+                    <div class="resultado-container" class="resultados" style="display:none;">
+                      <button onclick="mostrarResultado()" class="botoes-navegacao" id="btnResultado">RESULTADO</button>
+                    </div>
+                    <button onclick="avancar()" class="nav2 avancar let">AVANÇAR ❯</button>
+                    <button style="display:none;" onclick="iniciar()" class="nav3 iniciar">REINICIAR</button>
+
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Imagem Verde Inferior -->
+    <div class="footer-image">
+        <img src="assets/soverde.png" alt="Imagem Verde Inferior" class="w-100" style="margin-top: -35px;position: initial;">
+    </div>
+</section>
+
+
+<section id="resultado" class="result" style="display:none;">
+  <div class="header-image2">
+        <img src="assets/cinza_onda.png" alt="Imagem Cinza Superior" class="w-100">
+    </div>
+       <div class="container">
+    <div class="row align-items-center">
+      <!-- Coluna 1 -->
+      <div class="col-md-3 coluna1 text-center">
+        <img class="resultado texto9" src="assets/resultado.png" alt="Imagem de um botão escrito resutado">
+        <img class="resultado texto10" src="assets/resultadob.png" style="width:100%;" alt="Imagem de um botão escrito resutado">
+        <div class="linha-verde"></div>
+      </div>
+
+      <!-- Coluna 2 -->
+      <div class="col-md-5 coluna2 text-center">
+        <img src="assets/trofeu.png" alt="desenho de uma mão segurando um troféu." />
+      </div>
+
+      <!-- Coluna 3 -->
+      <div class="col-md-4 alinhar">
+        <p class="titulo-resultado">
+          Você sabe muito bem <br />
+          como se <span class="destaque">manter focado!</span>
+        </p>
+        <p class="texto-final">
+          Uau! Você é uma pessoa muito concentrada e focada em tudo o que se propõe fazer.
+          Executar tarefas que exigem atenção não parece ser um problema para você.
+        </p>
+        <span class="azul-negrito">CONTINUE ASSIM!</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="resultado2" class="result2" style="display:none;">
+  <div class="header-image2">
+        <img src="assets/cinza_onda.png" alt="Imagem Cinza Superior" class="w-100">
+    </div>
+       <div class="container">
+    <div class="row align-items-center">
+      <!-- Coluna 1 -->
+      <div class="col-md-3 coluna1 text-center">
+        <img class="resultado texto9" src="assets/resultado.png" alt="Imagem de um botão escrito resutado">
+        <img class="resultado texto10" src="assets/resultadob.png" style="width:100%;" alt="Imagem de um botão escrito resutado">
+        <div class="linha-verde"></div>
+      </div>
+
+      <!-- Coluna 2 -->
+      <div class="col-md-5 coluna2 text-center">
+        <img src="assets/trofeu2.png" alt="desenho de uma pessoa fazendo um círculo em uma peça de quebra-cabeça. Com pontos de interrogação em volta." />
+      </div>
+
+      <!-- Coluna 3 -->
+      <div class="col-md-4 alinhar">
+        <p class="titulo-resultado">
+          Focar costuma ser <br />
+          um <span class="destaque">desafio para você!</span>
+        </p>
+        <p class="texto-final">
+          Você <strong>costuma se distrair facilmente e tem dificuldade em manter a atenção</strong> em atividades que precisam ser feitas.  
+        </p>
+        <p><strong>ALGUMAS DICAS SIMPLES QUE PODEM TE AJUDAR:</strong></p>
+        <ul>
+          <li>Estabeleça em sua vida objetivos claros e, a partir desses, trace metas.</li>
+
+          <li>Planeje-se de acordo com o que você sabe que poderá cumprir.</li>  
+
+          <li>Reponha os nutrientes que reparam o equilíbrio do seu organismo, ajudando a manter o foco e a concentração nas atividades diárias. </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="resultado3" class="result3" style="display:none;">
+  <div class="header-image2">
+        <img src="assets/cinza_onda.png" alt="Imagem Cinza Superior" class="w-100">
+    </div>
+       <div class="container">
+    <div class="row align-items-center">
+      <!-- Coluna 1 -->
+      <div class="col-md-3 coluna1 text-center">
+        <img class="resultado texto9" src="assets/resultado.png" alt="Imagem de um botão escrito resutado">
+        <img class="resultado texto10" src="assets/resultadob.png" style="width:100%;" alt="Imagem de um botão escrito resutado">
+        <div class="linha-verde"></div>
+      </div>
+
+      <!-- Coluna 2 -->
+      <div class="col-md-5 coluna2 text-center">
+        <img src="assets/trofeu3.png" alt="desenho de uma medalha de ouro." />
+      </div>
+
+      <!-- Coluna 3 -->
+      <div class="col-md-4 alinhar">
+        <p class="titulo-resultado">
+          Focado(a), <br />
+          mas <span class="destaque">nem tanto!</span>
+        </p>
+        <p class="texto-final">
+          Você sabe se organizar e consegue se manter focado(a) quando precisa. Mas não liga de sair da linha de vez em quando, nem de interromper ou mudar os seus planos de acordo com os acontecimentos do dia. Além disso, às vezes você precisa se esforçar bastante para focar no que precisa ser feito, não é? Potencialize suas habilidades e veja como você pode chegar nos seus objetivos muito mais facilmente.  
+        </p>
+      </div>
+    </div>
+  </div>
+</section>   
+
+
+
+
+<section id="referencia" class="bg-referencias w-100" style="display:none;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12" style="text-align: left;">
+          <h3>REFERÊNCIAS</h3>
+
+          <p>7 MANEIRAS de manter o foco. <strong>Eu Sem Fronteiras</strong>, 2023. Disponível em: <a href="https://www.eusemfronteiras.com.br/7-maneiras-de-manter-o-foco/" target="_blank">https://www.eusemfronteiras.com.br/7-maneiras-de-manter-o-foco/</a>. Acesso em: 6 ago. 2025.</p>
+
+
+          <p>COMO manter o foco nos estudos em casa. <strong>Quizur</strong>, 2023. Disponível em: <a href="https://pt.quizur.com/list/como-manter-o-foco-nos-estudos-em-casa-U2ke" target="_blank">https://pt.quizur.com/list/como-manter-o-foco-nos-estudos-em-casa-U2ke</a>. Acesso em: 6 ago. 2025.</p>
+
+          <p>FOCO. <strong>Significados</strong>, c2011-2025. Disponível em: <a href="https://www.significados.com.br/foco/" target="_blank">https://www.significados.com.br/foco/</a>. Acesso em: 6 ago. 2025.</p>
+
+          <p>SINDUSFARMA. <strong>Recurso multimídia do Programa de Apoio ao Profissional</strong>. [201-?].</p>
+
+          <p>TESTE de concentração e foco. <strong>Quizur</strong>, 2022. Disponível em: <a href="https://pt.quizur.com/quiz/teste-de-concentracao-e-foco-MZJm" target="_blank">https://pt.quizur.com/quiz/teste-de-concentracao-e-foco-MZJm</a>. Acesso em: 6 ago. 2025. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</main>
+
+  <!-- RODAPÉ -->
+  <!--//////////////////////////////////////////////////////
+  Classes prontas p/ footer (podem ser combinadas):
+  padrão => texto e contornos em cinza
+  class = "black" => texto e contornos em preto
+  class = "negativo" => texto e contornos em branco, sobre fundo escuro
+  class = "transparente" => fundo transparente (necessário ajustar cor dos ícones de compartilhamento nos círculos, para bater com a cor de fundo)
+  /////////////////////////////////////////////////////////-->
+  <!-- <footer class="black"> -->
+  <!-- <footer class="negativo"> -->
+  <!-- <footer class="transparente"> -->
+  <!-- <footer class="transparente black"> -->
+  <!-- <footer class="transparente negativo"> -->
+  <footer style="display:none;" id="footer">
+    <div class="container d-flex justify-content-between">
+
+      <div class="cred-rea">
+        <!-- Comente em caso de adaptação do REA -->
+          <div>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2020.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</div>
+          <div><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></div>
+          <div><a href="#" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div>
+          <div>Compartilhe: <div class="sharing"></div></div>
+
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <!-- FORMULÁRIOS DE AVALIAÇÃO -->
+      <div class="aval-rea d-flex">
+        <!-- AVALIAR RECURSO -->
+        <!-- Atualizar "Concentracao+e+Sucesso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&origin=NeoPortalPage&subpage=design&id=eWAQmRRQ2UGlKPSnPostHslhOptOikFPj8CvLGp68s5UMjAySkhTTTNaSVlBS0hLNjk4MkxPUEdPRiQlQCNjPTEkJUAjdD1n" target="_blank">Avaliar este recurso</a>
+        <!-- REPORTAR ERRO -->
+        <!-- Atualizar "Concentracao+e+Sucesso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&origin=NeoPortalPage&subpage=design&id=eWAQmRRQ2UGlKPSnPostHslhOptOikFPj8CvLGp68s5UREVCQ01UTjI3UUtWSFpFTjFCUVZXNEU4WSQlQCN0PWcu" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Fim da div .esconder-tela-pequena
+  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
+  <!-- </div> -->
+
+  <!-- //////////////////////////////////////////////////////////
+  AVISO =+960px
+  Utilizar caso o REA possua limitações quanto aos tamanhos de tela
+  Caso contrário, deletar
+  ///////////////////////////////////////////////////////////////-->
+  <!-- <div class= "container d-lg-none text-center">
+    <div class="container">
+      <a href="https://univesp.br/" target="_blank">
+        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
+      </a>
+    </div>
+    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
+    <div style="margin-top:.5rem">
+      <p>
+        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
+      </p>
+      <p>
+        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
+      </p>
+    </div>
+  </div> -->
+
+  <!-- CRÉDITOS -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p style="color:white;">Secretaria de Ciência, Tecnologia e Inovação</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p style="color:#fff;"><span class="funcao">Presidente</span>Marcos Augusto Francisco Borges</p>
+          <p style="color:#fff;"><span class="funcao">Diretor Acadêmico</span>Romero Tori</p>
+
+          <h6>Equipe</h6>
+          <p style="color:#fff;"><span class="funcao">Coordenação</span>Wesley de Souza Lima</p>
+          <p style="color:#fff;"><span class="funcao">Design Instrucional</span>Juliana Quitério Lopez Salvaia e Mirtes Andreassa Nunes</p>
+          <p style="color:#fff;"><span class="funcao">Design</span>Carlos Henrique Bossolan</p>
+          <p style="color:#fff;"><span class="funcao">Programação</span>Celso de Oliveira</p>
+
+        </div>
+        <div class="modal-footer">
+          <p style="color:#fff;">Agosto/2025</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+    var share = $(".sharing");
+    var page_title = $(document).attr('title');
+    var page_url = window.location.href;
+    share.jsSocials({
+      shares: [
+        {
+          share: "facebook",
+          logo: "fab fa-facebook-f",
+        },
+        {
+          share: "twitter",
+          logo: "fab fa-twitter",
+        },
+        {
+          share: "whatsapp",
+          logo: "fab fa-whatsapp",
+        },
+      ],
+      url: page_url,
+      text: 'Confira o REA ' + page_title + '.',
+      showLabel: false,
+      showCount: false,
+      shareIn: "popup",
+    });
+
+
+
+
+
+let parteAtual = 1;
+const totalPartes = 12;
+const respostas = {};
+const contadores = {
+  sim: 0,
+  nao: 0,
+  as_vezes: 0,
+};
+const total = contadores.sim + contadores.nao + contadores.as_vezes;
+document.addEventListener("DOMContentLoaded", () => {
+  mostrarParte(parteAtual);
+
+  document.querySelectorAll(".resposta").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const parte = btn.closest(".parte").id;
+      const escolha = btn.dataset.resposta;
+
+      btn.parentElement.querySelectorAll(".resposta").forEach(b => b.classList.remove("selecionada"));
+      btn.classList.add("selecionada");
+
+      if (respostas[parte]) contadores[respostas[parte]]--;
+      respostas[parte] = escolha;
+      contadores[escolha]++;
+      if (Object.keys(respostas).length === 12) {
+      document.querySelector(".resultado-container").style.display = "block";
+  }
+      console.log(`Contagem atual:`, contadores.sim + contadores.nao + contadores.as_vezes);
+      console.log(respostas)
+    });
+  });
+});
+
+function mostrarParte(numero) {
+  document.querySelectorAll(".parte").forEach(p => p.classList.remove("ativa"));
+  const parte = document.getElementById(`parte${numero}`);
+  if (parte) parte.classList.add("ativa");
+}
+
+function avancar() {
+  if (parteAtual < totalPartes) {
+    parteAtual++;
+    mostrarParte(parteAtual);
+  } else {
+    const todasRespondidas = Object.keys(respostas).length === 12;
+
+if (todasRespondidas) {
+  document.getElementById("btnAvancar").disabled = true;
+  document.getElementById("btnAvancar").style.opacity = "0.5"; // aparência desativada
+  document.getElementById("btnAvancar").style.cursor = "not-allowed";
+}
+  }
+}
+
+function voltar() {
+  if (parteAtual > 1) {
+    parteAtual--;
+    mostrarParte(parteAtual);
+  }
+}
+function mostrarResultado() {
+const { sim, nao, as_vezes } = contadores;
+
+  // Descobrir qual é o maior valor
+  const maior = Math.max(sim, nao, as_vezes);
+
+  // Mostrar o resultado correspondente
+  if (maior === sim) {
+    document.getElementById("resultado").style.display = "block";
+    document.getElementById("resultado2").style.display = "none";
+    document.getElementById("resultado3").style.display = "none";
+    document.querySelector('.result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else if (maior === nao) {
+    document.getElementById("resultado").style.display = "none";
+    document.getElementById("resultado2").style.display = "block";
+    document.getElementById("resultado3").style.display = "none";
+    document.querySelector('.result2').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else {
+    document.getElementById("resultado").style.display = "none";
+    document.getElementById("resultado2").style.display = "none";
+    document.getElementById("resultado3").style.display = "block";
+    document.querySelector('.result3').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // Oculta todas as partes do questionário e botões
+  //document.querySelectorAll(".parte").forEach(p => p.classList.remove("ativa"));
+  //document.getElementById("btnAvancar").style.display = "none";
+    document.getElementById("referencia").style.display = "block";
+    document.getElementById("footer").style.display = "block";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  mostrarParte(parteAtual);
+
+  // Desativa todos os botões AVANÇAR no início
+  document.querySelectorAll('.avancar').forEach(botao => {
+    botao.disabled = true;
+    botao.style.opacity = "0.5";
+    botao.style.cursor = "not-allowed";
+  });
+
+  document.querySelectorAll(".resposta").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const parte = btn.closest(".parte").id;
+      const escolha = btn.dataset.resposta;
+
+      btn.parentElement.querySelectorAll(".resposta").forEach(b => b.classList.remove("selecionada"));
+      btn.classList.add("selecionada");
+
+      if (respostas[parte]) contadores[respostas[parte]]--;
+      respostas[parte] = escolha;
+      contadores[escolha]++;
+
+      if (Object.keys(respostas).length === 12) {
+        document.querySelector(".resultado-container").style.display = "block";
+        document.querySelector(".iniciar").style.display = "block";
+        document.querySelector(".let").style.display = "none";
+      }
+
+      console.log(`Contagem atual:`, contadores);
+
+      // Ativa o botão AVANÇAR da parte atual
+      const parteAtiva = document.querySelector('.parte.ativa');
+      if (parteAtiva) {
+        const botaoAvancar = parteAtiva.querySelector('.avancar');
+        if (botaoAvancar) {
+          botaoAvancar.disabled = false;
+          botaoAvancar.style.opacity = "1";
+          botaoAvancar.style.cursor = "pointer";
+        }
+      }
+    });
+  });
+});
+
+// Seleciona o botão Iniciar assim que o DOM estiver pronto
+const botaoIniciar = document.querySelector('.iniciar');
+botaoIniciar.addEventListener('click', resetQuiz);
+
+/* ------------- Função que reinicia o quiz ---------------- */
+function resetQuiz() {
+  /* 1. Volta à primeira parte */
+  parteAtual = 1;
+  mostrarParte(parteAtual);
+
+  /* 2. Zera respostas e contadores */
+  for (const key in respostas) delete respostas[key];
+  contadores.sim = 0;
+  contadores.nao = 0;
+  contadores.as_vezes = 0;
+
+  /* 3. Remove seleção visual dos botões de resposta */
+  document.querySelectorAll('.resposta')
+          .forEach(btn => btn.classList.remove('selecionada'));
+
+  /* 4. Esconde as caixas de resultado */
+  document.querySelector('.resultado-container').style.display = 'none';
+  document.getElementById('resultado' ).style.display = 'none';
+  document.getElementById('resultado2').style.display = 'none';
+  document.getElementById('resultado3').style.display = 'none';
+
+  /* 5. Desativa novamente todos os botões AVANÇAR */
+  document.querySelectorAll('.avancar').forEach(botao => {
+    botao.disabled = true;
+    botao.style.opacity = '0.5';
+    botao.style.cursor  = 'not-allowed';
+  });
+
+  /* 6. Esconde seções extra (caso tenha mostrado) */
+  const ref   = document.getElementById('referencia');
+  const rodape = document.getElementById('footer');
+  if (ref)    ref.style.display = 'none';
+  if (rodape) rodape.style.display = 'none';
+
+  /* 7. Esconde o próprio botão Iniciar */
+  botaoIniciar.style.display = 'none';
+
+  /* 8. Rola para o topo da página (opcional) */
+  document.getElementById("exercicio").scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+}
+
+
+
+
+  </script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
